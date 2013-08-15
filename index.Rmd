@@ -9,8 +9,8 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 github:
-  user: Porxy
-  repo: slidifyDemo
+      user: Porxy
+      repo: slidifyDemo
 ---
 
 ## Read-And-Delete
@@ -38,3 +38,12 @@ require(googleVis)
 M1 <- gvisMotionChart(Fruits,idvar="Fruit",timevar="Year")
 print(M1,tag="chart")
 ```
+---
+
+## Slide 3
+
+```{r echo=FALSE,message=FALSE}
+library(ggplot2)
+qplot(wt, mpg, data = mtcars)+geom_smooth()
+```
+

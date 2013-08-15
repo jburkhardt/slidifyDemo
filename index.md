@@ -9,8 +9,8 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 github:
-  user: Porxy
-  repo: slidifyDemo
+      user: Porxy
+      repo: slidifyDemo
 ---
 
 ## Read-And-Delete
@@ -34,14 +34,14 @@ Animated List
 ## Motion Chart
 
 <!-- MotionChart generated in R 3.0.1 by googleVis 0.4.3 package -->
-<!-- Thu Aug 15 16:09:47 2013 -->
+<!-- Thu Aug 15 16:42:53 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartIDafd38c52c47 () {
+function gvisDataMotionChartIDb943224a2f0 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -139,14 +139,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartIDafd38c52c47() {
-  var data = gvisDataMotionChartIDafd38c52c47();
+function drawChartMotionChartIDb943224a2f0() {
+  var data = gvisDataMotionChartIDb943224a2f0();
   var options = {};
 options["width"] =    600;
 options["height"] =    500;
 
      var chart = new google.visualization.MotionChart(
-       document.getElementById('MotionChartIDafd38c52c47')
+       document.getElementById('MotionChartIDb943224a2f0')
      );
      chart.draw(data,options);
     
@@ -170,9 +170,9 @@ options["height"] =    500;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartMotionChartIDafd38c52c47);
+  callbacks.push(drawChartMotionChartIDb943224a2f0);
 })();
-function displayChartMotionChartIDafd38c52c47() {
+function displayChartMotionChartIDb943224a2f0() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -196,11 +196,18 @@ function displayChartMotionChartIDafd38c52c47() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartIDafd38c52c47"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartIDb943224a2f0"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartIDafd38c52c47"
+<div id="MotionChartIDb943224a2f0"
   style="width: 600px; height: 500px;">
 </div>
+
+---
+
+## Slide 3
+
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+
 
