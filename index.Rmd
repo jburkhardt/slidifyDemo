@@ -44,6 +44,6 @@ print(M1,tag="chart")
 
 ```{r echo=FALSE,message=FALSE}
 library(ggplot2)
-qplot(wt, mpg, data = mtcars)+geom_smooth()
+qplot(wt, mpg, data = mtcars,main="Cars Data")+geom_smooth()
 ```
 
